@@ -82,6 +82,7 @@ def first_second_and_third_students
   "Nicki Minaj",
   "Rihanna"
 ]
+puts room[1]
 puts room[2]
 puts room[3]
 end
