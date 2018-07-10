@@ -17,7 +17,7 @@ def first_student_by_index
   "Nicki Minaj",
   "Rihanna"
 ]
-puts room[0]
+puts STUDENT_NAMES[0]
 end
 
 def fourth_student_by_index
@@ -30,7 +30,7 @@ def fourth_student_by_index
   "Nicki Minaj",
   "Rihanna"
 ]
-puts room[4]
+puts STUDENT_NAMES[4]
 end
 
 def last_student_by_index
@@ -43,7 +43,7 @@ def last_student_by_index
   "Nicki Minaj",
   "Rihanna"
 ]
-puts room[6]
+puts STUDENT_NAMES[6]
 end
 
 def first_student_by_method
