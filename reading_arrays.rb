@@ -56,7 +56,7 @@ def first_student_by_method
   "Nicki Minaj",
   "Rihanna"
 ]
-puts room.first
+puts STUDENT_NAMES.first
 end
 
 def last_student_by_method
@@ -69,7 +69,7 @@ def last_student_by_method
   "Nicki Minaj",
   "Rihanna"
 ]
-puts room.last
+puts STUDENT_NAMES.last
 end
 
 def first_second_and_third_students
@@ -82,7 +82,7 @@ def first_second_and_third_students
   "Nicki Minaj",
   "Rihanna"
 ]
-puts room[1]
-puts room[2]
-puts room[3]
+puts STUDENT_NAMES[1]
+puts STUDENT_NAMES[2]
+puts STUDENT_NAMES[3]
 end
